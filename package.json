@@ -1,6 +1,6 @@
 {
   "name": "femida",
-  "version": "1.0.1git",
+  "version": "1.0.2",
   "dependencies": {
     "firebase": "^9.15.0",
     "git": "^0.1.5"
