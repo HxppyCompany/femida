@@ -10,7 +10,7 @@
   },
   "scripts": {
     "Обновление": "git add . && git status && git commit -m 'commit' && git push https://github.com/Fantik13/femida",
-    "build": "git add . && git status && git commit -m 'commit' && git push https://github.com/Fantik13/femida",
+    "build": "firebase deploy",
     "deploy": "firebase deploy",
     "publish": "npm publish",
     "init": "git init",
