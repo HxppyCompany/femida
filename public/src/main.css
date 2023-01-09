@@ -125,7 +125,7 @@ body {
     background-size: cover;
     background: url("../img/background.webp") center 4.2vmax;
     border-top: 5.5vmax solid #dea34c;
-    /*border-bottom: 5.5vmax solid #dea34c;*/
+    border-bottom: 5.5vmax solid #dea34c;
     margin: 0;
 }
 
