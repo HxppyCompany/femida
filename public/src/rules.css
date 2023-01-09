@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Cambia Math";
+    src: url("Cambria/cambria.ttc");
+} /*Cambria Math*/
+@font-face {
+    font-family: "Alexander";
+    src: url("/alexander/Alexander.ttf");
+} /*Alexander*/
+@font-face {
+    font-family: "Alexander Hint";
+    src: url("/alexander/Alexander_hint.ttf");
+} /*Alexander Hint*/
+@font-face {
+    font-family: "Anaktoria";
+    src: url("/anaktoria/Anaktoria.ttf");
+} /*Anaktoria*/
+@font-face {
+    font-family: "Anaktoria Hint";
+    src: url("/anaktoria/Anaktoria_hint.ttf");
+} /*Anaktoria Hint*/
+@font-face {
+    font-family: "Avdira B";
+    src: url("/avdira/Avdira_B.otf");
+} /*Avdira B*/
+@font-face {
+    font-family: "Avdira I";
+    src: url("/avdira/Avdira_I.otf");
+} /*Avdira I*/
+@font-face {
+    font-family: "Avdira J";
+    src: url("/avdira/Avdira_J.otf");
+} /*Avdira J*/
+@font-face {
+    font-family: "Avdira R";
+    src: url("/avdira/Avdira_R.otf");
+} /*Avdira R*/
+@font-face {
+    font-family: "Dejavu Sans Extra Light";
+    src: url("/dejavu-sans-extra-light/DejaVuSans-ExtraLight.ttf");
+} /*Dejavu Sans Extra Light*/
+@font-face {
+    font-family: "Free Mono";
+    src: url("/free-mono/FreeMono.ttf");
+} /*Free Mono*/
+@font-face {
+    font-family: "Free Mono Bold";
+    src: url("/free-mono/FreeMonoBold.ttf");
+} /*Free Mono Bold*/
+@font-face {
+    font-family: "Free Mono Oblique";
+    src: url("/free-mono/FreeMonoOblique.ttf");
+} /*Free Mono Oblique*/
+@font-face {
+    font-family: "Free Mono Bold Oblique";
+    src: url("/free-mono/FreeMonoBoldOblique.ttf");
+} /*Free Mono Bold Oblique*/
+@font-face {
+    font-family: "Gabriola";
+    src: url("/gabriola/GABRIOLA.TTF");
+} /*Gabriola*/
+@font-face {
+    font-family: "Mabry Pro";
+    src: url("/Mabry/Mabry-Pro-Medium.ttf");
+} /*Mabry Pro Medium*/
+
+div.rules {
+    font-family: "Mabry Pro", sans-serif;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Mabry Pro", sans-serif;
+    font-weight: 1000;
+    margin: 0 0 10vh;
+    font-size: 2.25vmax;
+    padding: 1vmax 7vw;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 2vmax;
+}
+
+h3 {
+    text-align: center;
+    margin: 100px 0 20px;
+    font-size: 3vmin;
+}
+
+p.left {
+    margin-top: 150px;
+    text-align: left;
+    font-size: 2.5vmin;
+    padding-left: 10vw;
+    padding-right: 50vw;
+}
+
+p.right {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    text-align: right;
+    font-size: 2.5vmin;
+    padding-right: 10vw;
+    padding-left: 50vw;
+}
+
+p.center {
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 2.25vmin;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+p.ps {
+    font-size: 2vmin;
+    padding-left: 11.5vw;
+    margin-bottom: 50px;
+    color: #323436;
+}
+
+body {
+    background-size: cover;
+    background: url("../img/background.webp") center 4.2vmax;
+    border-top: 5.5vmax solid #dea34c;
+    border-bottom: 5.5vmax solid #dea34c;
+    margin: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+html::-webkit-scrollbar {
+    width: 0;
+}

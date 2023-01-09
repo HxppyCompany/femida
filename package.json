@@ -1,0 +1,21 @@
+{
+  "name": "femida",
+  "version": "1.0.1git",
+  "dependencies": {
+    "firebase": "^9.15.0",
+    "git": "^0.1.5"
+  },
+  "devDependencies": {
+    "onchange": "^7.1.0"
+  },
+  "scripts": {
+    "Обновление": "git add . && git status && git commit -m 'commit' && git push",
+    "deploy": "firebase deploy",
+    "publish": "npm publish",
+    "init": "git init",
+    "add": "git add .",
+    "status": "git status",
+    "commit": "git commit -m 'commit'",
+    "push": "git push"
+  }
+}

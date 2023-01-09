@@ -1,0 +1,261 @@
+div.line {
+    display: flex;
+}
+
+div#game {
+    width: 600px;
+    align-self: end;
+    border: black solid 5px;
+    display: flex;
+}
+
+div#board {
+    border: 5px solid rgba(0, 0, 0);
+}
+
+
+button.game_button {
+    align-items: flex-start;
+    appearance: auto;
+    background-color: rgb(192, 192, 192);
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border: 1px solid rgba(0, 0, 0, 100);
+    border-radius: 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.847);
+    cursor: pointer;
+    display: flex;
+    font-family: system-ui;
+    font-size: 11px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    height: 50px;
+    left: 100px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    width: 50px;
+    word-spacing: 0;
+    writing-mode: horizontal-tb;
+}
+
+button.game_button:active {
+    align-items: flex-start;
+    appearance: auto;
+    background-color: rgb(142, 142, 142);
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-width: 0;
+    border-style: outset;
+    border-color: rgb(192, 192, 192);
+    border-radius: 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.847);
+    cursor: pointer;
+    display: flex;
+    font-family: system-ui;
+    font-size: 11px;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    height: 50px;
+    left: 100px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    width: 50px;
+    word-spacing: 0;
+    writing-mode: horizontal-tb;
+
+}
+
+        /*control buttons*/
+div#game_buttons {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+button#flag_mode {
+    align-items: flex-start;
+    appearance: auto;
+    background-color: rgb(255, 0, 0);
+    border-bottom-color: rgb(103, 0, 0);
+    border-bottom-style: outset;
+    border-bottom-width: 2px;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-left-color: rgb(255, 51, 51);
+    border-left-style: outset;
+    border-left-width: 2px;
+    border-right-color: rgb(103, 0, 0);
+    border-right-style: outset;
+    border-right-width: 2px;
+    border-top-color: rgb(255, 51, 51);
+    border-radius: 15%;
+    border-top-style: outset;
+    border-top-width: 2px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.847);
+    cursor: pointer;
+    display: block;
+    font-family: system-ui;
+    font-size: 3.75vw;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 700;
+    height: 5vw;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 2.5vw 0 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    width: 5vw;
+    word-spacing: 0;
+    writing-mode: horizontal-tb;
+}
+
+button#flag_mode:active {
+    align-items: flex-start;
+    appearance: auto;
+    background-color: rgb(204, 0, 0);
+    border-bottom-color: rgb(255, 51, 51);
+    border-bottom-style: outset;
+    border-bottom-width: 2px;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-left-color: rgb(103, 0, 0);
+    border-left-style: outset;
+    border-left-width: 2px;
+    border-right-color: rgb(255, 51, 51);
+    border-right-style: outset;
+    border-right-width: 2px;
+    border-top-color: rgb(103, 0, 0);
+    border-radius: 15%;
+    border-top-style: outset;
+    border-top-width: 2px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.847);
+    cursor: pointer;
+    display: block;
+    font-family: system-ui;
+    font-size: 3.75vw;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 700;
+    height: 5vw;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 2.5vw 0 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    width: 5vw;
+    word-spacing: 0;
+    writing-mode: horizontal-tb;
+}
+
+button#start_button {
+    align-items: flex-start;
+    appearance: auto;
+    background-color: rgb(255, 255, 0);
+    border-bottom-color: rgb(103, 103, 0);
+    border-bottom-style: outset;
+    border-bottom-width: 2px;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-left-color: rgb(255, 255, 127);
+    border-left-style: outset;
+    border-left-width: 2px;
+    border-right-color: rgb(103, 103, 0);
+    border-right-style: outset;
+    border-right-width: 2px;
+    border-top-color: rgb(255, 255, 127);
+    border-radius: 15%;
+    border-top-style: outset;
+    border-top-width: 2px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.847);
+    cursor: pointer;
+    display: block;
+    font-family: system-ui;
+    font-size: 3.75vw;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 700;
+    height: 5vw;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 2.5vw 0 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    width: 5vw;
+    word-spacing: 0;
+    writing-mode: horizontal-tb;
+}
+
+button#start_button:active {
+    align-items: flex-start;
+    appearance: auto;
+    background-color: rgb(204, 204, 0);
+    border-bottom-color: rgb(255, 255, 127);
+    border-bottom-style: outset;
+    border-bottom-width: 2px;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-left-color: rgb(103, 103, 0);
+    border-left-style: outset;
+    border-left-width: 2px;
+    border-right-color: rgb(255, 255, 127);
+    border-right-style: outset;
+    border-right-width: 2px;
+    border-top-color: rgb(103, 103, 0);
+    border-radius: 15%;
+    border-top-style: outset;
+    border-top-width: 2px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.847);
+    cursor: pointer;
+    display: block;
+    font-family: system-ui;
+    font-size: 3.75vw;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: 700;
+    height: 5vw;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 0 2.5vw 0 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-indent: 0;
+    text-shadow: none;
+    text-transform: none;
+    width: 5vw;
+    word-spacing: 0;
+    writing-mode: horizontal-tb;
+}

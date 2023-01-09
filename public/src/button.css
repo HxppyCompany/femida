@@ -1,0 +1,43 @@
+body {
+    behavior: url("csshover3.htc");
+}
+
+button {
+    cursor: pointer;
+}
+
+a, img {
+    position: absolute;
+}
+
+div#buttons img{
+    margin-top: -4.65vmax;
+}
+
+a.home {
+    margin-left: 10vw;
+}
+
+a.vk {
+    margin-left: 40vw;
+}
+
+a.telegram {
+    margin-left: 50vw;
+}
+
+a.discord {
+    margin-left: 60vw;
+}
+
+a.rules {
+    margin-left: 72.5vw;
+}
+
+a.specials {
+    margin-left: 85vw;
+}
+
+img {
+    display: flex;
+}
