@@ -16,6 +16,7 @@
     "add": "git add .",
     "status": "git status",
     "commit": "git commit -m 'commit'",
-    "push": "git push"
+    "push": "git push",
+    "pull": "git pull ."
   }
 }
