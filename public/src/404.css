@@ -11,8 +11,8 @@ div.main_text {
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-weight: 1000;
-    font-size: 5vw;
+    font-weight: bolder;
+    font-size: 15px;
     font-family: Gotham, sans-serif;
     padding: 1vmax 7vw;
     margin: 0;
