@@ -75,10 +75,10 @@ h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-weight: 1000;
-    font-size: 5.5vmax;
+    font-size: 2.25vmax;
     font-family: Gotham, sans-serif;
     padding: 1vmax 7vw;
-    margin: 0 0 fill;
+    margin: 0 0 fill 0;
     background: rgba(0, 0, 0, 0.2);
 }
 h2 {
