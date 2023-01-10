@@ -70,26 +70,24 @@ div.rules {
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
-    font-family: "Mabry Pro", sans-serif;
-    font-weight: 1000;
-    margin: 0 0 10vh;
-    font-size: 2.25vmax;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: Gotham, sans-serif;
     padding: 1vmax 7vw;
+    margin: 0 0 15vh;
     background: rgba(0, 0, 0, 0.2);
 }
-
 h2 {
-    font-weight: lighter;
-    color: rgb(0, 0, 0);
+    font-weight: 100;
     text-align: center;
-    margin: 0 0 20px;
-    font-size: 2vmax;
+    font-size: 20px;
+    margin: 0 0 10vh;
+    color: rgb(0, 0, 0);
 }
-
 h3 {
     text-align: center;
-    margin: 100px 0 20px;
-    font-size: 3vmin;
+    font-size: 30px;
+    margin: 0 0 15vh;
 }
 
 p.left {
