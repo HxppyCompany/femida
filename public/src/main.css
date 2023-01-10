@@ -133,7 +133,3 @@ div#bborder {
     border-bottom: 5.5vmax solid #dea34c;
     vertical-align: bottom;
 }
-
-html::-webkit-scrollbar {
-    width: 0;
-}
