@@ -78,7 +78,7 @@ h1 {
     font-size: 2.25vmax;
     font-family: Gotham, sans-serif;
     padding: 1vmax 7vw;
-    margin: 0 0 100vh;
+    margin: 0 0 82vmax;
     background: rgba(0, 0, 0, 0.2);
 }
 h2 {
@@ -108,7 +108,7 @@ div#bborder {
 }
 
 html::-webkit-scrollbar {
-    width: 0;
+    width: 5px;
 }
 
 html::-webkit-scrollbar-track {
