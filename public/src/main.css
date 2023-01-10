@@ -135,7 +135,7 @@ div#bborder {
 }
 
 html::-webkit-scrollbar {
-    width: auto;
+    width: 0;
 }
 
 html::-webkit-scrollbar-track {
