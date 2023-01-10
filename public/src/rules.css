@@ -138,5 +138,13 @@ span {
 }
 
 html::-webkit-scrollbar {
-    width: 0;
+    width: auto;
+}
+
+html::-webkit-scrollbar-track {
+    background: #dea34c;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #f6b662;
 }
