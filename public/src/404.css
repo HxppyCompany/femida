@@ -75,10 +75,10 @@ h1 {
     color: rgb(0, 0, 0);
     text-align: center;
     font-weight: 1000;
-    font-size: 2.25vmax;
+    font-size: 5.5vmax;
     font-family: Gotham, sans-serif;
     padding: 1vmax 7vw;
-    margin: 0 0 84.75vw;
+    margin: 0 0 fill;
     background: rgba(0, 0, 0, 0.2);
 }
 h2 {
@@ -108,7 +108,7 @@ div#bborder {
 }
 
 html::-webkit-scrollbar {
-    width: 5px;
+    width: 0;
 }
 
 html::-webkit-scrollbar-track {
