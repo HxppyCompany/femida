@@ -135,6 +135,15 @@ div#bborder {
 }
 
 html::-webkit-scrollbar {
-    scrollbar-color: black yellow;
-    scrollbar-width: thin;
+    width: 16px;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #d4aa70;
+    border-radius: 100px;
 }
