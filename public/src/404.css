@@ -78,7 +78,7 @@ h1 {
     font-size: 2.25vmax;
     font-family: Gotham, sans-serif;
     padding: 1vmax 7vw;
-    margin: 0 0 15vh;
+    margin: 0 0 100vh;
     background: rgba(0, 0, 0, 0.2);
 }
 h2 {
@@ -99,7 +99,7 @@ body {
     background: url("../img/background.webp") center 4.2vmax;
     border-top: 5.5vmax solid #dea34c;
     border-bottom: 5.5vmax solid #dea34c;
-    margin: 0 0 auto 0;
+    margin: 0;
 }
 
 div#bborder {
